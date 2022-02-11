@@ -1,0 +1,33 @@
+.app {
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #ecf0f1;
+  padding: 1rem;
+
+  &__logo {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.container {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px -4px #000000;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}

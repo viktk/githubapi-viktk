@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'vars';
+
+// ici on charge tout le CSS de semantic ui
+@import 'semantic-ui-css/semantic.min.css';
+
+html body {
+  font-family: sans-serif;
+  background-color: vars.$color-main;
+  color: vars.$color-text;
+}
+
+#root {
+  height: 100%;
+}
